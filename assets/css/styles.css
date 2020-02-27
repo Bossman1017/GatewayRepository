@@ -1,0 +1,168 @@
+/*Text contained within my paragraphs*/
+.index-section p {font-size:35px;
+  text-align:center;
+  }
+.index-section{
+  font:30px
+}
+/*Background color of all of the pages*/
+body{
+  background:linear-gradient(red,white,blue);
+}
+/*Alignments and color for the main headers*/
+h1{
+  text-align:center;
+  color:blue;
+}
+/*Alignment and header for secondary header*/
+h2{
+  text-align:center;
+  font-size:40px;
+}
+/*Positioning for nav content*/
+.navbar {
+  list-style-type: none;
+  position: fixed;
+    width: 100%;
+    top: 0;
+  align-items:center;
+  display:flex;
+  justify-content:space-evenly;
+  padding: 20px;
+  background-color:grey;
+  }
+
+/* Navbar links */
+.navbar a {
+  color: #f2f2f2;
+  margin:5px 0px 20px 0px;
+  padding:20px;
+  text-decoration:none;
+}
+/*Images on the Activities Page*/
+.act-img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+/*I.T Page Images*/
+.it-images{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height:15%;
+  width: 15%;
+  border-radius:30%
+  }
+.it-comp {
+  text-decoration:none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color:blue;
+}
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url("https://upload.wikimedia.org/wikipedia/commons/3/35/Texas_flag_map.svg");
+
+   /* Set a specific height for hero */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+}
+  /*Hero font and styles*/
+  body, html {
+  height: 100%; 
+  margin: 0 ;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+/*Height for Contact Boxes*/
+input{ 
+width:50%;
+height:32px;
+}
+
+/*Only for Contacts*/
+form{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border:3px solid black;
+}
+
+/*Form button for contents*/
+.form-button {
+  justify-content:flex-start;
+    color: black;
+    font-size: 14px;
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    border-radius: 3px;
+    cursor:pointer;
+    text-transform: uppercase;
+    background-color:red;
+    border: 1px solid black;
+}
+.form-button:hover,
+.form-button:active{
+  color:blue;
+}
+  /*Margins set for contact form*/
+  form input{
+  margin:20px 0;
+}
+/*Alignment for footing*/
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  border: 5px solid black;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(red,white,blue)
+}
+/*Image on the footer*/
+.footer img{
+  width: 40px;
+}
+/*Alignment for Texas footer logo*/
+.logo-copyright {
+  display: flex;
+  align-items: center;
+}
+
+  textarea{
+  width:300px;
+  height:120px;
+}
+  
+.header {
+  color:white;
+  padding-top:100px;
+}
+.header-2{
+  transform: translate(0%, -20%); 
+}
+
+.texas-header{
+  transform: translate(0%, -50%); 
+}
